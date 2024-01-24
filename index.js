@@ -6,10 +6,10 @@ const port = 3000;
 
 // MySQL Connection
 const connection = mysql.createConnection({
-  host: 'localhost',
-  user: 'root',
-  password: '',
-  database: 'ground_booking',
+  host: 'sql210.ezyro.com',
+  user: 'ezyro_35824709',
+  password: 'mui9090@',
+  database: 'ezyro_35824709_futsall',
 });
 
 connection.connect((err) => {
